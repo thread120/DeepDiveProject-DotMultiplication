@@ -24,30 +24,30 @@ Overall, as the length of the vector increased, the CUDA implementation consiste
 
 ## II. Program Output Screenshots 
 ### ***INPUT:***
-![image](https://github.com/thread120/CEPARCO-Cruz-Air-DotMul/assets/86954328/f0d53f68-7432-41dd-8976-bd7d5ef69416)
+![image](https://github.com/thread120/DeepDiveProject-DotMultiplication/assets/86954328/e5ecedec-7691-4a83-bdbd-8fbe5a252fbd)
+
 
 
 ### A) C Implementation 
-![image](https://github.com/thread120/CEPARCO-Cruz-Air-DotMul/assets/86954328/f25bf42f-ca35-4af9-95e5-e61bb59111cf)
-![image](https://github.com/thread120/CEPARCO-Cruz-Air-DotMul/assets/86954328/89ae9e37-9e0b-4021-adbc-e537708f57bb)
-![image](https://github.com/thread120/CEPARCO-Cruz-Air-DotMul/assets/86954328/9d9cc858-fb25-4af1-ae85-eaa9864965e0)
+![image](https://github.com/thread120/DeepDiveProject-DotMultiplication/assets/86954328/6059d271-97c6-4de1-ac23-e414485cffce)
+
 
 
 ### B) x86-64 (Non-SIMD) Implementation
-![image](https://github.com/thread120/CEPARCO-Cruz-Air-DotMul/assets/86954328/14fd9bc3-0771-481d-b381-58a1023e2e87)
-![image](https://github.com/thread120/CEPARCO-Cruz-Air-DotMul/assets/86954328/d8808db2-3495-4ab0-9e5c-b506cbfb62ea)
-![image](https://github.com/thread120/CEPARCO-Cruz-Air-DotMul/assets/86954328/40655212-a383-4eac-8a3c-da737f4714f7)
+![image](https://github.com/thread120/DeepDiveProject-DotMultiplication/assets/86954328/22adbcf7-ef1d-4b88-8109-7a66d3fdd134)
+![image](https://github.com/thread120/DeepDiveProject-DotMultiplication/assets/86954328/9c58fbe9-4ae7-4b5b-a096-63af7b9e5d4f)
+
 
 
 ### C) SIMD-YMM register Implementation
-![image](https://github.com/thread120/CEPARCO-Cruz-Air-DotMul/assets/86954328/c2c044cb-7fcc-448f-971c-42bfbaa5c948)
-![image](https://github.com/thread120/CEPARCO-Cruz-Air-DotMul/assets/86954328/d9f98b2b-b654-410d-bfbc-678a93494f72)
-![image](https://github.com/thread120/CEPARCO-Cruz-Air-DotMul/assets/86954328/cd4ba743-05c0-45bc-8a79-330cea45d8c8)
+![image](https://github.com/thread120/DeepDiveProject-DotMultiplication/assets/86954328/0ea54cef-2d27-4e3d-a75e-8a7264c880ce)
+
 
 ### D) CUDA Implementation
-![image](https://github.com/thread120/CEPARCO-Cruz-Air-DotMul/assets/86954328/9210e02d-fb12-455c-92b2-24ac309b8d01)
-![image](https://github.com/thread120/CEPARCO-Cruz-Air-DotMul/assets/86954328/2f4392b2-c89d-4e92-ba07-fc76cb6844af)
-![image](https://github.com/thread120/CEPARCO-Cruz-Air-DotMul/assets/86954328/861bbf57-3f9b-43d9-b79c-5862ba266144)
+![image](https://github.com/thread120/DeepDiveProject-DotMultiplication/assets/86954328/9b5b44be-a01d-4352-98b0-7938a4be0dc5)
+![image](https://github.com/thread120/DeepDiveProject-DotMultiplication/assets/86954328/747c579b-bcd9-4c96-8ce4-4b2e70cc159f)
+![image](https://github.com/thread120/DeepDiveProject-DotMultiplication/assets/86954328/021e970d-5c94-4c96-ba24-0712b9e9a495)
+
 
 
 
