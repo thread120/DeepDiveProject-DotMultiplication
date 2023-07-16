@@ -9,7 +9,8 @@ An individual project for Parallel Computing class
 
 ## I. Comparison and Analysis of Execution Time
 
-![image](https://github.com/thread120/CEPARCO-Cruz-Air-DotMul/assets/86954328/3c6a888f-ba92-41f9-b0b3-03bce624e10a)
+![image](https://github.com/thread120/DeepDiveProject-DotMultiplication/assets/86954328/d030918f-9280-4a55-9284-6933e1871966)
+![image](https://github.com/thread120/DeepDiveProject-DotMultiplication/assets/86954328/18ec4ffe-f630-4aed-9a87-87c9eadab4d9)
 
 At a vector length ***(n) of 2^20***, the performance of different implementations was evaluated. The C implementation showed the slowest execution time, taking 3,133.33 microseconds (us) to complete. In contrast, both x86-64 implementations, the non-SIMD and SIMD, demonstrated relatively fast execution times of 933.33 us and 733.33 us, respectively. Specifically, the SIMD implementation exhibited a significant speed advantage over the C counterpart, being 4.3 times faster. Furthermore, it demonstrated a 1.27 times speed advantage over the x86-64 implementation. This notable difference in execution times among the first three versions can be attributed to the inherent advantage of SIMD's implementation, which leverages data-level parallelism to perform operations on multiple data elements simultaneously.
 
