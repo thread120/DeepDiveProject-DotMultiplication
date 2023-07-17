@@ -9,8 +9,8 @@ An individual project for Parallel Computing class
 
 ## I. Comparison and Analysis of Execution Time
 
-![image](https://github.com/thread120/DeepDiveProject-DotMultiplication/assets/86954328/d030918f-9280-4a55-9284-6933e1871966)
-![image](https://github.com/thread120/DeepDiveProject-DotMultiplication/assets/86954328/18ec4ffe-f630-4aed-9a87-87c9eadab4d9)
+[![image-2023-07-17-091339402.png](https://i.postimg.cc/Fzr31MkJ/image-2023-07-17-091339402.png)](https://postimg.cc/G8fH5SQc)
+[![image-2023-07-17-091532395.png](https://i.postimg.cc/qqqqP4CQ/image-2023-07-17-091532395.png)](https://postimg.cc/y3q79qjS)
 
 At a vector length ***(n) of 2^20***, the performance of different implementations was evaluated. The C implementation showed the slowest execution time, taking 3,133.33 microseconds (us) to complete. In contrast, both x86-64 implementations, the non-SIMD and SIMD, demonstrated relatively fast execution times of 933.33 us and 733.33 us, respectively. Specifically, the SIMD implementation exhibited a significant speed advantage over the C counterpart, being 4.3 times faster. Furthermore, it demonstrated a 1.27 times speed advantage over the x86-64 implementation. This notable difference in execution times among the first three versions can be attributed to the inherent advantage of SIMD's implementation, which leverages data-level parallelism to perform operations on multiple data elements simultaneously.
 
@@ -24,29 +24,29 @@ Overall, as the length of the vector increased, the CUDA implementation consiste
 
 ## II. Program Output Screenshots 
 ### ***INPUT:***
-![image](https://github.com/thread120/DeepDiveProject-DotMultiplication/assets/86954328/e5ecedec-7691-4a83-bdbd-8fbe5a252fbd)
+[![image.png](https://i.postimg.cc/dQfV7MCP/image.png)](https://postimg.cc/jCzb9FvZ)
 
 
 
 ### A) C Implementation 
-![image](https://github.com/thread120/DeepDiveProject-DotMultiplication/assets/86954328/6059d271-97c6-4de1-ac23-e414485cffce)
+[![image-2023-07-17-091801782.png](https://i.postimg.cc/ydd7dnY8/image-2023-07-17-091801782.png)](https://postimg.cc/bGK7Vxt7)
 
 
 
 ### B) x86-64 (Non-SIMD) Implementation
-![image](https://github.com/thread120/DeepDiveProject-DotMultiplication/assets/86954328/22adbcf7-ef1d-4b88-8109-7a66d3fdd134)
-![image](https://github.com/thread120/DeepDiveProject-DotMultiplication/assets/86954328/9c58fbe9-4ae7-4b5b-a096-63af7b9e5d4f)
+[![image-2023-07-17-091828191.png](https://i.postimg.cc/mD5BFMtN/image-2023-07-17-091828191.png)](https://postimg.cc/HcXfqr0V)
+[![image-2023-07-17-091851018.png](https://i.postimg.cc/qq60cRKf/image-2023-07-17-091851018.png)](https://postimg.cc/rRTvMqgg)
 
 
 
 ### C) SIMD-YMM register Implementation
-![image](https://github.com/thread120/DeepDiveProject-DotMultiplication/assets/86954328/0ea54cef-2d27-4e3d-a75e-8a7264c880ce)
+[![image-2023-07-17-091914014.png](https://i.postimg.cc/8PWfNk0n/image-2023-07-17-091914014.png)](https://postimg.cc/0bkyCvxp)
 
 
 ### D) CUDA Implementation
-![image](https://github.com/thread120/DeepDiveProject-DotMultiplication/assets/86954328/9b5b44be-a01d-4352-98b0-7938a4be0dc5)
-![image](https://github.com/thread120/DeepDiveProject-DotMultiplication/assets/86954328/747c579b-bcd9-4c96-8ce4-4b2e70cc159f)
-![image](https://github.com/thread120/DeepDiveProject-DotMultiplication/assets/86954328/021e970d-5c94-4c96-ba24-0712b9e9a495)
+[![image-2023-07-17-092013220.png](https://i.postimg.cc/XvNrff7T/image-2023-07-17-092013220.png)](https://postimg.cc/gx5cd6hD)
+[![image-2023-07-17-092050271.png](https://i.postimg.cc/63yTSBZc/image-2023-07-17-092050271.png)](https://postimg.cc/Q9ZXKG0K)
+[![image-2023-07-17-092132392.png](https://i.postimg.cc/CxchVWSQ/image-2023-07-17-092132392.png)](https://postimg.cc/fV0ncq3c)
 
 
 
